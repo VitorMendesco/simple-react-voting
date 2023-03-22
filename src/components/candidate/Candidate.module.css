@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: slategrey;
+}
+
+.img {
+  border-radius: 64px;
+}
+
+.votes {
+  color: chartreuse;
+  text-shadow: 0 0 2px chartreuse;
+}
+
+.button {
+  background-color: hsl(208, 100%, 97%, 0.4);
+  border: 2px solid turquoise;
+  border-radius: 32px;
+  padding: 8px 16px;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color, color 0.1s ease;
+}
+
+.button:hover {
+  background-color: aliceblue;
+  color: #222;
+}
+
+.button:active {
+  transform: scale(0.95);
+}
